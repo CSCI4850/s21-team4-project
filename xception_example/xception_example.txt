@@ -1,0 +1,103 @@
+image_0.JPEG	parakeet on laptop
+image_1.JPEG	dog with sheep
+image_2.JPEG	cow udder
+image_3.JPEG	two puppies playing
+image_4.JPEG	Egyptian cat looking at camera
+image_5.JPEG	golden cat looking down
+image_6.JPEG	dog coming up the stairs
+image_7.JPEG	cat playing with camera
+image_8.JPEG	brown dog looking at camera
+image_9.JPEG	cute cat with grey stripes
+image_10.JPEG	golden cat in basket with red blanket
+image_11.JPEG	black cat with play toy
+image_12.JPEG	cat sitting on windowsill
+image_13.JPEG	black cat on snow
+image_14.JPEG	cat on kitchen floor with pink rope
+image_15.JPEG	black dog being pet with hand
+image_16.JPEG	dog in field with sun
+image_17.JPEG	black and white cat in grass
+image_18.JPEG	dog with soccer ball
+image_19.JPEG	golden and white cat with purple feather
+image_20.JPEG	cat looking at camera between bed and desk
+image_21.JPEG	two dogs in a park on grass
+image_22.JPEG	closeup on grey and brown cat
+image_23.JPEG	cat with black, brown and white fur
+image_24.JPEG	white dog and brown dog resting on couch 
+image_25.JPEG	rooster
+image_26.JPEG	two donkeys
+image_27.JPEG	cute dog looking at camera
+image_28.JPEG	horse in fence
+image_29.JPEG	sheep with curly horns
+image_30.JPEG	cat that looks like a fox	
+image_31.JPEG	woman with two dog in sunset
+image_32.JPEG	dog on bed looking at camera
+image_33.JPEG	dog outside
+image_34.JPEG	kitten being held by a man
+image_35.JPEG	cool bull dog with chains and glasses
+image_36.JPEG	cat between trees looking shocked
+image_37.JPEG	dog who is done with life
+image_38.JPEG	dog looking at camera 
+image_39.JPEG	cat trying to act cute
+image_40.JPEG	horse over fence 
+image_41.JPEG	cat going to drink water
+image_42.JPEG	grazing sheep
+image_43.JPEG	cat on wood
+image_44.JPEG	two cats in a basket
+image_45.JPEG	bird on girl's shoulder
+image_46.JPEG	man riding horse
+image_47.JPEG	angry dog 
+image_48.JPEG	black and white picture of puppy	
+image_49.JPEG	white and black puppy in woman's lap
+image_50.JPEG	cat with stripes 
+image_51.JPEG	dog looking away
+image_52.JPEG	kitten with blue eyes
+image_53.JPEG	cat trying to look like a model
+image_54.JPEG	dog trying to code
+image_55.JPEG	cow trying to fly 
+image_56.JPEG	horse in the desert 
+image_57.JPEG	dog with an attitude
+image_58.JPEG	cat in girl's arms
+image_59.JPEG	cat looking away from camera
+image_60.JPEG	sheep with curly horns
+image_61.JPEG	elegant cat photo
+image_62.JPEG	parakeet trying to be cool
+image_63.JPEG	cow getting a tan
+image_64.JPEG	dog questioning his life
+image_65.JPEG	two dog cuddling 
+image_66.JPEG	scared dog 
+image_67.JPEG	grazing sheep in park
+image_68.JPEG	black cat with scary eyes
+image_69.JPEG	fancy parakeet
+image_70.JPEG	dog lounging 
+image_71.JPEG	girl kissing dog
+image_72.JPEG	cat alone in the dark
+image_73.JPEG	angry chicken 
+image_74.JPEG	cat that is not photogenic
+image_75.JPEG	man in field holding baby cow
+image_76.JPEG	cute little kitten in sun
+image_77.JPEG	black and white cat on leaves in the sun
+image_78.JPEG	brown cat with leash walking on stone 
+image_79.JPEG	cute hamster
+image_80.JPEG	Mr. Long neck giraffe 
+image_81.JPEG	dog in the snow 
+image_82.JPEG	two guinea pigs 
+image_83.JPEG	black cat trying to be scary 
+image_84.JPEG	dog in harness with tongue out 
+image_85.JPEG	sad black cat 
+image_86.JPEG	3 golden retrievers on leaves 
+image_87.JPEG	dog trying to catch some sleep 
+image_88.JPEG	cat trying to drink water from glass 
+image_89.JPEG	selfie of dog and woman 
+image_90.JPEG	picture of dog 
+image_91.JPEG	picture of dog from the side 
+image_92.JPEG	three white ducks 
+image_93.JPEG	brown and white cow on field 
+image_94.JPEG	white puppy leaning on the fence 
+image_95.JPEG	shiny cat on carpet 
+image_96.JPEG	dog having a bad picture day 
+image_97.JPEG	brown dog portrait 
+image_98.JPEG	black and white cat playing with pink rope 
+image_99.JPEG	dog in grass with good sun 
+
+
+	
