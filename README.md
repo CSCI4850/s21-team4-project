@@ -68,6 +68,87 @@ our neural network and matplotlib for plotting and visualization, and numpy for 
     from tensorflow.keras.applications.xception import preprocess_input,decode_predictions
 ```
 
+```python
+    from tensorflow.keras.applications.xception import Xception
+    from tensorflow.keras.preprocessing import image
+    from tensorflow.keras.applications.xception import preprocess_input,decode_predictions
+```
+<br />
+
+1.The Data
+We used some of the common image dataset. We will use the encoder/decoder in processing the
+building/training the data Below is how we loaded our data containing our images, make sure you
+are in the right directory to be able to load the images. Remember these are grey-scale images.
+<br />
+
+Image folder used from previous work. We used the folder of images from Open Lab 6 provided by Dr. Philips
+-[ola 6](https://www.cs.mtsu.edu/~jphillips/courses/CSCI4850-5850/private/Open_Lab_6.pdf)
+
+
+```python
+image path and set the size of the images to 299x299
+    def grab_image(img_path):
+    img = image.load_img(img_path, target_size=(299, 299))
+    x = image.img_to_array(img)
+    x = np.expand_dims(x, axis=0)
+    x = preprocess_input(x)
+    return x
+X = np.concatenate(
+[grab_image('xception_example/images/image_%d.JPEG'%(i))
+for i in range(100)])
+X.shape
+```
+<br />
+ Following output we will get: (100, 299, 299, 3)
+ Above output is the dimension of the images we've set. 
+ <br />
+ <br />
+ 
+Take note this is a 4D tensor of input data for the neural network. The first dimension is 100 since
+there are 100 images, each of has the same pixels thus 299 x 299 pixels with a 2 x 3 dimension and
+the last dimension of size 3 dor the three color channels of the image(red, green, blue). After the
+above code is run, each image has already been preprocessed for input into the pre-trained network
+that we will be using Goodgles’s Xception net.
+
+<br />
+<br />
+```python
+    #Let's load up the model
+    #This will load up the architecture and then the pre-trained weights from the internet...
+    model = Xception(weights='imagenet')
+    # Just the first image that we say above...
+    preds = model.predict(X[:,:,:,:])
+    # Decode the results into a list of tuples (class, description, probability)
+    # (one such list for each sample in the batch)
+    for i in range (0,100):
+        print("\nImage", i + 1)
+        plt.imshow(image.array_to_img(X[i,:,:,:]))
+        plt.show()
+        W=(decode_predictions(preds,top=10)[i])
+        Sum=0
+        Sum+=((W[0])[-1])
+        j=1
+        print((W[0])[1], end='')
+        while ((Sum<.45)&(j<5)): # Captions derived from the top 45% of probabilities within the top 5 predictions
+            if ((W[j])[-1]>.04): # 4% is the minimum probability to qualify as a caption
+                Sum+=((W[j])[-1])
+            j=j+1
+        print('\n')
+```
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
 
 
 
