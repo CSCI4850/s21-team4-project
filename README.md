@@ -84,9 +84,8 @@ are in the right directory to be able to load the images. Remember these are gre
 Image folder used from previous work. We used the folder of images from Open Lab 6 provided by Dr. Philips
 -[ola 6](https://www.cs.mtsu.edu/~jphillips/courses/CSCI4850-5850/private/Open_Lab_6.pdf)
 
-
-```python
 image path and set the size of the images to 299x299
+```python
     def grab_image(img_path):
     img = image.load_img(img_path, target_size=(299, 299))
     x = image.img_to_array(img)
@@ -110,16 +109,15 @@ the last dimension of size 3 dor the three color channels of the image(red, gree
 above code is run, each image has already been preprocessed for input into the pre-trained network
 that we will be using Goodgles’s Xception net.
 
+Let's load up the model.This will load up the architecture and then the pre-trained weights from the internet...
 <br />
 <br />
 ```python
-    #Let's load up the model
-    #This will load up the architecture and then the pre-trained weights from the internet...
     model = Xception(weights='imagenet')
-    # Just the first image that we say above...
+    #Just the first image that we say above...
     preds = model.predict(X[:,:,:,:])
-    # Decode the results into a list of tuples (class, description, probability)
-    # (one such list for each sample in the batch)
+    #Decode the results into a list of tuples (class, description, probability)
+    #(one such list for each sample in the batch)
     for i in range (0,100):
         print("\nImage", i + 1)
         plt.imshow(image.array_to_img(X[i,:,:,:]))
