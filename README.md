@@ -45,10 +45,30 @@ In order to be able to run ImageCaptionGenerator.ipynb file you need to have a A
 
 We begin by importing some of the tools we need to process our data. These tools will used to build/train
 our neural network and matplotlib for plotting and visualization, and numpy for everything
+<br />
+<br />
+<!-- Code Blocks-->
+```python
+    import tensorflow.keras as keras
+    from tensorflow.keras import backend as K
+    import numpy as np
+    from IPython.display import display
+    import matplotlib.pyplot as plt
+    from mpl_toolkits.mplot3d import axes3d
+    %matplotlib inline
+```
+<br />
 
-'''python
-    cell created
-'''
+ First a few tools for this -particular- example...
+ These tool are needed for this specific type of building/training
+```python
+    
+    from tensorflow.keras.applications.xception import Xception
+    from tensorflow.keras.preprocessing import image
+    from tensorflow.keras.applications.xception import preprocess_input,decode_predictions
+```
+
+
 
 
 
