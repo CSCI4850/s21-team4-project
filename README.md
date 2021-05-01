@@ -19,7 +19,7 @@ corresponding output sequence using another recurrent hidden layer.
 <br />
 <br />
 
-####Installation
+#### Installation
 In order to be able to run ImageCaptionGenerator.ipynb file you need to have a Anaconda or JupyterHub on Biosim  in you computer.
 
 
@@ -42,6 +42,13 @@ In order to be able to run ImageCaptionGenerator.ipynb file you need to have a A
      - git clone < repository  link>
 - open recently cloned repository  and double click on 'ImageCaptionGenerator.ipynb' file. 
 - You're now able to run the code
+
+We begin by importing some of the tools we need to process our data. These tools will used to build/train
+our neural network and matplotlib for plotting and visualization, and numpy for everything
+
+'''python
+    cell created
+'''
 
 
 
