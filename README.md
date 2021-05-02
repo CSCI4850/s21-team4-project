@@ -38,9 +38,12 @@ In order to be able to run ImageCaptionGenerator.ipynb file you need to have a A
 ```
 ### Please check out the the file called " Demo.ipynb " to run a script for this model.
 ### Link for the file
--[Demo.ipynb](https://github.com/CSCI4850/s21-team4-project/blob/main/Demo.ipynb)
--[Images](https://github.com/CSCI4850/s21-team4-project/tree/main/xception_example/images)
--[Images_text_file](https://github.com/CSCI4850/s21-team4-project/blob/main/xception_example/xception_example.txt)
+
+   -[Demo.ipynb](https://github.com/CSCI4850/s21-team4-project/blob/main/Demo.ipynb)
+    <br />
+   -[Images Folder](https://github.com/CSCI4850/s21-team4-project/tree/main/xception_example/images)
+   <br />
+   -[Images_text_file](https://github.com/CSCI4850/s21-team4-project/blob/main/xception_example/xception_example.txt)
 
 
 
