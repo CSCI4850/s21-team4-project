@@ -86,7 +86,6 @@ image_84.JPEG	dog in harness with tongue out
 image_85.JPEG	sad black cat 
 image_86.JPEG	3 golden retrievers on leaves 
 image_87.JPEG	dog trying to catch some sleep 
-image_88.JPEG	cat trying to drink water from glass 
 image_89.JPEG	selfie of dog and woman 
 image_90.JPEG	picture of dog 
 image_91.JPEG	picture of dog from the side 
